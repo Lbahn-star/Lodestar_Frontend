@@ -1,0 +1,177 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/app/icon.png",
+      "sha1": "e0f26545546435297ab986bf8804f736fe79d23a"
+    },
+    {
+      "path": "assets/app/splash.png",
+      "sha1": "80dfc7c81e87da59ea7eeb6d07b3228addf0109a"
+    },
+    {
+      "path": "assets/images/062812.png",
+      "sha1": "02172eab1a7435b0cac80a50877c3ff9039f3e00"
+    },
+    {
+      "path": "assets/images/AndreTaissin5OUMf1Mr5pUUnsplash.jpg",
+      "sha1": "81cc5f5ac76b4c11891cc43b15761275fa970eea"
+    },
+    {
+      "path": "assets/images/Avatar.png",
+      "sha1": "d428530278fedcd5c74204c521454ffe8640effd"
+    },
+    {
+      "path": "assets/images/Avatar2.png",
+      "sha1": "5724dd2c12cb72f3e818c6f505b04b089c231436"
+    },
+    {
+      "path": "assets/images/Banner.png",
+      "sha1": "2ba1380f1a668dde6b70656f7563588963293a9e"
+    },
+    {
+      "path": "assets/images/BigLogo.png",
+      "sha1": "e79cea62213fb5dca4ba4f9d19303157369e0278"
+    },
+    {
+      "path": "assets/images/CNP.png",
+      "sha1": "337c4b44dd7e95d3ba07873df08e695d1dd4aa9d"
+    },
+    {
+      "path": "assets/images/ChannelBanner.png",
+      "sha1": "bde68ebcc4824352084f5699073a84fb6a6324fd"
+    },
+    {
+      "path": "assets/images/ChannelDP.png",
+      "sha1": "576681ddab36a085a626c125b0492f5decaa8dca"
+    },
+    {
+      "path": "assets/images/CharlieGreen3JmfENcL24MUnsplash.jpg",
+      "sha1": "ca9517dc89afb77d02bc11b23271614bbff9d634"
+    },
+    {
+      "path": "assets/images/Chiline2.jpg",
+      "sha1": "b02adc8fb78d14326c7f96c96354c11ab491ebd7"
+    },
+    {
+      "path": "assets/images/ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg",
+      "sha1": "d8f21de885406bc79160ee6969cb3d17cd877f90"
+    },
+    {
+      "path": "assets/images/DALL·E20230127005431.png",
+      "sha1": "d4dda4c221ade26fbdf6dee23b02ac93e4ef6a68"
+    },
+    {
+      "path": "assets/images/Discord.png",
+      "sha1": "4b40789ed09c02e4b2b6062439fcbfbc52884282"
+    },
+    {
+      "path": "assets/images/FPimage.png",
+      "sha1": "985ce9be59a801d6e9bbd6008e99cc548fc261b8"
+    },
+    {
+      "path": "assets/images/Fb.png",
+      "sha1": "b2c2b38302707467922d125415db7d50d0b335af"
+    },
+    {
+      "path": "assets/images/Games.png",
+      "sha1": "47cd50d801ccd62c5cc4f177d58feb24010e17ca"
+    },
+    {
+      "path": "assets/images/GoLive.png",
+      "sha1": "a9c5570b89d61e1e4c8cf7dd89ae674974a4a2ca"
+    },
+    {
+      "path": "assets/images/GoLiveSG.png",
+      "sha1": "6db3a6862136c993b7bc7cea3004e8c627808170"
+    },
+    {
+      "path": "assets/images/GoliveSI.png",
+      "sha1": "5bcc0999710595f221cab4a79b39283e036444e7"
+    },
+    {
+      "path": "assets/images/IconSMS.png",
+      "sha1": "977476cf208f02f9477992fa0381b2269463bdf8"
+    },
+    {
+      "path": "assets/images/Ig.png",
+      "sha1": "c80e62f9e1b6c25a20206d979016483e610f54a5"
+    },
+    {
+      "path": "assets/images/JoelMottLaK153ghdigUnsplash.jpg",
+      "sha1": "91a96dd9c3c7e4189a500dc2ca5f6b7435a304bd"
+    },
+    {
+      "path": "assets/images/JonathanBorbaKgCSRo4SiT8Unsplash.jpg",
+      "sha1": "8273c1aae049bf7e519542866b4057f605867572"
+    },
+    {
+      "path": "assets/images/LastStream.png",
+      "sha1": "8887f5f61534cc23e33930cee793c86541ec0e56"
+    },
+    {
+      "path": "assets/images/LolaRoseZcHseJqAeEcUnsplash.jpg",
+      "sha1": "ebbff537cc31aa9683f18570d78ccc93b7d675ce"
+    },
+    {
+      "path": "assets/images/MalikSkydsgaardIgkwHPbVk8Unsplash.jpg",
+      "sha1": "7334faa32a4844a71fdc7e27cbd2b33f9d33d5e6"
+    },
+    {
+      "path": "assets/images/ObApple.png",
+      "sha1": "79f97b568db1aef0c210f8648889a44f050440e8"
+    },
+    {
+      "path": "assets/images/ObFB.png",
+      "sha1": "02146bc64592fd65c5c06385b37fccfcfcd2dbfc"
+    },
+    {
+      "path": "assets/images/ObGoogle.png",
+      "sha1": "9dce258cc0d44eb4bd1dd1abe3a0859f6403000a"
+    },
+    {
+      "path": "assets/images/ScreenShot20211122At33505PM.png",
+      "sha1": "83c841f3ab3c50fec070b499ccddbbd919ed03d3"
+    },
+    {
+      "path": "assets/images/ScreenShot20211122At34913PM.png",
+      "sha1": "e7cbfa6d3a84404fbc22e85fcf6e075a79353433"
+    },
+    {
+      "path": "assets/images/Successpopup.png",
+      "sha1": "f9bfd7ead107f53a5615b6d6a78224dee66490d4"
+    },
+    {
+      "path": "assets/images/Telgrm.png",
+      "sha1": "74598b11d7e76eaba96593db9b7455aaeb7f3996"
+    },
+    {
+      "path": "assets/images/Twtr.png",
+      "sha1": "1d07a6c420aab6d8b97f89ab5854e590ec46bb9e"
+    },
+    {
+      "path": "assets/images/User.png",
+      "sha1": "0ac24b5de1940da2dd444378f7cc1acc3d5e9a35"
+    },
+    {
+      "path": "assets/images/ViaEmail.png",
+      "sha1": "8f5e79bfd4c84d51faa289efde29261aa4b40d93"
+    },
+    {
+      "path": "assets/images/Video.png",
+      "sha1": "cbc82f2ef2751a00317e6e2b56e240f98a272a7c"
+    },
+    {
+      "path": "assets/images/ViniciusWiesehoferUOavPZ38lEUnsplash.jpg",
+      "sha1": "c84026837e51881719f88f763e839d69b621e5fe"
+    },
+    {
+      "path": "assets/images/Welcome.png",
+      "sha1": "fb306c0e69532aa2d45ff4e59327813284fbda92"
+    },
+    {
+      "path": "assets/images/Yt.png",
+      "sha1": "9c454698cddfa30fa221b82747bf1654c98c1712"
+    }
+  ]
+}

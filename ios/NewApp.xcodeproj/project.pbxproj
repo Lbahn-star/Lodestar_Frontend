@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E992A192E4479897EC5E53 /* ObApple.png in Resources */ = {isa = PBXBuildFile; fileRef = 994E5D5116B8411990C402D7 /* ObApple.png */; };
+		0FD182944E4C4EC6A6A4A02D /* Banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 988B311F69E149F0876B273E /* Banner.png */; };
+		117DFED78DAD4A3E85D10651 /* BigLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7140DE67694CEE85E9B60F /* BigLogo.png */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		16EFB69FEB6E4C81BA74B735 /* ScreenShot20211122At34913PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE14418EFD049CDB522DFB1 /* ScreenShot20211122At34913PM.png */; };
+		1C28EF270AB941C4B0531133 /* Avatar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 545CC5ED46A74CA182ED79B6 /* Avatar2.png */; };
+		28C85B7BAFF641038883EAA5 /* ObFB.png in Resources */ = {isa = PBXBuildFile; fileRef = 0202CEBFF0964EC1B76A5851 /* ObFB.png */; };
+		2A22875F21514311BACD1C7E /* JonathanBorbaKgCSRo4SiT8Unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B394C487A7A84CB8B196005F /* JonathanBorbaKgCSRo4SiT8Unsplash.jpg */; };
+		2EE6ADCF4D034FD2B488671B /* Chiline2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C854074E35174EDE85917CB6 /* Chiline2.jpg */; };
+		329C2135BAFD4534B71919E9 /* ChannelDP.png in Resources */ = {isa = PBXBuildFile; fileRef = EC436C12D26F4988B41DF818 /* ChannelDP.png */; };
+		3628D5F838374270BD9BD6AA /* Successpopup.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D844CBF2DD424DB43E5C69 /* Successpopup.png */; };
+		3A1CFE5FCCE640C1B3FEEECC /* Discord.png in Resources */ = {isa = PBXBuildFile; fileRef = 0597AFAE47C04BEAB13BD8DA /* Discord.png */; };
+		3E311773D9BA4BD7B4EBE2D6 /* GoLive.png in Resources */ = {isa = PBXBuildFile; fileRef = AD674E7F83D04E84BF62B849 /* GoLive.png */; };
+		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		403837335D974F36AB958AA5 /* IconSMS.png in Resources */ = {isa = PBXBuildFile; fileRef = 056B6A16430E402BB6F5E663 /* IconSMS.png */; };
+		429FEC90F3904F7F9EE43D7B /* ChannelBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 5326BAA729664114B6CAD01D /* ChannelBanner.png */; };
+		4AD113FAF3FF47CE888067AA /* MalikSkydsgaardIgkwHPbVk8Unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 291DD57650484D3DB61CE16B /* MalikSkydsgaardIgkwHPbVk8Unsplash.jpg */; };
+		4CC3626750D8483388D58C16 /* 062812.png in Resources */ = {isa = PBXBuildFile; fileRef = AEBF0B9D926F43B893B9F6FA /* 062812.png */; };
+		568DAE33AD3D4BFEA6FDE2FB /* GoliveSI.png in Resources */ = {isa = PBXBuildFile; fileRef = 10DE9C8A76D741E584BC1168 /* GoliveSI.png */; };
+		56EE8D57BC4E429FAA28D5B8 /* ScreenShot20211122At33505PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF7A22319BE4F09A295B188 /* ScreenShot20211122At33505PM.png */; };
+		59A0B371A1704F9787083293 /* GoLiveSG.png in Resources */ = {isa = PBXBuildFile; fileRef = A564CB36ADE1494E8F1AA808 /* GoLiveSG.png */; };
+		5A24C52EBC1D49CF975C6861 /* LastStream.png in Resources */ = {isa = PBXBuildFile; fileRef = 832271547BD14BA4987667A8 /* LastStream.png */; };
+		5B9C8297F3A74C75A4DCB2F9 /* CharlieGreen3JmfENcL24MUnsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61CB91DDF3FA43B69B641F07 /* CharlieGreen3JmfENcL24MUnsplash.jpg */; };
+		5C60D288A9D84EFA83E297D4 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7747958E6BDE401DB4EF5A7E /* noop-file.swift */; };
+		64A096487EB64467A53E1F53 /* ViaEmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 31738CC71A8E4420992F4DF7 /* ViaEmail.png */; };
+		65BC8206CD614FE096BE7840 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 59D936DF80714EEDAFE5E264 /* splash.png */; };
+		6D06C2FD3FC94946A78DA0DD /* CNP.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EB3E4244B0842E0A53848B6 /* CNP.png */; };
+		6E0F9CFEF8DB41CCB6664E05 /* ObGoogle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD967FAD5444C6A825D16FC /* ObGoogle.png */; };
+		7A82815EFFA44120A0D7A4CA /* Avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = DB550E562072483198CDC386 /* Avatar.png */; };
+		81DF634EFA14492A8ACD4EF7 /* ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD790A2B34304016A83061CF /* ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg */; };
+		866A7363284C4166A99FEF1F /* DALL·E20230127005431.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD62737F7F840239E667AC7 /* DALL·E20230127005431.png */; };
+		91BDB36D55DA433D816C1146 /* Yt.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EE259CB35C44E3A0547E00 /* Yt.png */; };
+		96905EF65AED1B983A6B3ABC /* libPods-NewApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-NewApp.a */; };
+		A1AD855612574F1AA57A4D71 /* ViniciusWiesehoferUOavPZ38lEUnsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24AE8EAF5BBC4181974A3664 /* ViniciusWiesehoferUOavPZ38lEUnsplash.jpg */; };
+		A754E7090A684B2798F4EEE4 /* Twtr.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C66B233727415CAE900EDC /* Twtr.png */; };
+		B079A12D044946C992F059BB /* LolaRoseZcHseJqAeEcUnsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A210D1ADA2D408389B84C3A /* LolaRoseZcHseJqAeEcUnsplash.jpg */; };
+		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
+		B1F3B6BF267549838548CA3B /* Telgrm.png in Resources */ = {isa = PBXBuildFile; fileRef = D1332FDE57234B2286A1818E /* Telgrm.png */; };
+		B7EE73FCB4654423B8A83810 /* FPimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3806A59EE9674860B226F6E6 /* FPimage.png */; };
+		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		BB652134E5254282B1A4DA68 /* Welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D08841842E483A8DA3ED95 /* Welcome.png */; };
+		BBA6F52FEE6749D5AD071CAA /* Ig.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC111C544C44158AF55BB8 /* Ig.png */; };
+		BF3ABE11CCF448EB817ACFEB /* JoelMottLaK153ghdigUnsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63BAC2B551D94332B3155FD9 /* JoelMottLaK153ghdigUnsplash.jpg */; };
+		CB923ACAA5AC4303ACD71CD0 /* Fb.png in Resources */ = {isa = PBXBuildFile; fileRef = C88E7C07C18442EE80661EBE /* Fb.png */; };
+		D7859130648549F08B2389CA /* AndreTaissin5OUMf1Mr5pUUnsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AF5A2D44F7D4BBABA1DE59D /* AndreTaissin5OUMf1Mr5pUUnsplash.jpg */; };
+		D840DF40FDC04BB8AC7631C0 /* Video.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E711BF4EA48444A97FFA1D8 /* Video.png */; };
+		DDB78163409A41DC8991575D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E6D8836F5C4BDD90583900 /* icon.png */; };
+		E77191FA8F7F4F96A0938CB7 /* Games.png in Resources */ = {isa = PBXBuildFile; fileRef = 5618072AA53F4B52A6EF81EE /* Games.png */; };
+		EBA3B96E3F994789A5100B9D /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 70D7945B07CF4C4391C88109 /* User.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		0202CEBFF0964EC1B76A5851 /* ObFB.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ObFB.png; path = ../assets/images/ObFB.png; sourceTree = "<group>"; };
+		056B6A16430E402BB6F5E663 /* IconSMS.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = IconSMS.png; path = ../assets/images/IconSMS.png; sourceTree = "<group>"; };
+		0597AFAE47C04BEAB13BD8DA /* Discord.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Discord.png; path = ../assets/images/Discord.png; sourceTree = "<group>"; };
+		10DE9C8A76D741E584BC1168 /* GoliveSI.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GoliveSI.png; path = ../assets/images/GoliveSI.png; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NewApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = NewApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NewApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NewApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NewApp/main.m; sourceTree = "<group>"; };
+		24AE8EAF5BBC4181974A3664 /* ViniciusWiesehoferUOavPZ38lEUnsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ViniciusWiesehoferUOavPZ38lEUnsplash.jpg; path = ../assets/images/ViniciusWiesehoferUOavPZ38lEUnsplash.jpg; sourceTree = "<group>"; };
+		28E6D8836F5C4BDD90583900 /* icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = icon.png; path = ../assets/app/icon.png; sourceTree = "<group>"; };
+		291DD57650484D3DB61CE16B /* MalikSkydsgaardIgkwHPbVk8Unsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MalikSkydsgaardIgkwHPbVk8Unsplash.jpg; path = ../assets/images/MalikSkydsgaardIgkwHPbVk8Unsplash.jpg; sourceTree = "<group>"; };
+		2A210D1ADA2D408389B84C3A /* LolaRoseZcHseJqAeEcUnsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LolaRoseZcHseJqAeEcUnsplash.jpg; path = ../assets/images/LolaRoseZcHseJqAeEcUnsplash.jpg; sourceTree = "<group>"; };
+		2EB3E4244B0842E0A53848B6 /* CNP.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CNP.png; path = ../assets/images/CNP.png; sourceTree = "<group>"; };
+		2EBC111C544C44158AF55BB8 /* Ig.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ig.png; path = ../assets/images/Ig.png; sourceTree = "<group>"; };
+		31738CC71A8E4420992F4DF7 /* ViaEmail.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ViaEmail.png; path = ../assets/images/ViaEmail.png; sourceTree = "<group>"; };
+		3806A59EE9674860B226F6E6 /* FPimage.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FPimage.png; path = ../assets/images/FPimage.png; sourceTree = "<group>"; };
+		42C66B233727415CAE900EDC /* Twtr.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Twtr.png; path = ../assets/images/Twtr.png; sourceTree = "<group>"; };
+		5326BAA729664114B6CAD01D /* ChannelBanner.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ChannelBanner.png; path = ../assets/images/ChannelBanner.png; sourceTree = "<group>"; };
+		545CC5ED46A74CA182ED79B6 /* Avatar2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Avatar2.png; path = ../assets/images/Avatar2.png; sourceTree = "<group>"; };
+		5618072AA53F4B52A6EF81EE /* Games.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Games.png; path = ../assets/images/Games.png; sourceTree = "<group>"; };
+		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-NewApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D936DF80714EEDAFE5E264 /* splash.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = splash.png; path = ../assets/app/splash.png; sourceTree = "<group>"; };
+		5B7140DE67694CEE85E9B60F /* BigLogo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BigLogo.png; path = ../assets/images/BigLogo.png; sourceTree = "<group>"; };
+		61CB91DDF3FA43B69B641F07 /* CharlieGreen3JmfENcL24MUnsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CharlieGreen3JmfENcL24MUnsplash.jpg; path = ../assets/images/CharlieGreen3JmfENcL24MUnsplash.jpg; sourceTree = "<group>"; };
+		63BAC2B551D94332B3155FD9 /* JoelMottLaK153ghdigUnsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JoelMottLaK153ghdigUnsplash.jpg; path = ../assets/images/JoelMottLaK153ghdigUnsplash.jpg; sourceTree = "<group>"; };
+		6C2E3173556A471DD304B334 /* Pods-NewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewApp.debug.xcconfig"; path = "Target Support Files/Pods-NewApp/Pods-NewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF7A22319BE4F09A295B188 /* ScreenShot20211122At33505PM.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ScreenShot20211122At33505PM.png; path = ../assets/images/ScreenShot20211122At33505PM.png; sourceTree = "<group>"; };
+		70D7945B07CF4C4391C88109 /* User.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = User.png; path = ../assets/images/User.png; sourceTree = "<group>"; };
+		7747958E6BDE401DB4EF5A7E /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "NewApp/noop-file.swift"; sourceTree = "<group>"; };
+		7A4D352CD337FB3A3BF06240 /* Pods-NewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewApp.release.xcconfig"; path = "Target Support Files/Pods-NewApp/Pods-NewApp.release.xcconfig"; sourceTree = "<group>"; };
+		832271547BD14BA4987667A8 /* LastStream.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LastStream.png; path = ../assets/images/LastStream.png; sourceTree = "<group>"; };
+		8E711BF4EA48444A97FFA1D8 /* Video.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Video.png; path = ../assets/images/Video.png; sourceTree = "<group>"; };
+		988B311F69E149F0876B273E /* Banner.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Banner.png; path = ../assets/images/Banner.png; sourceTree = "<group>"; };
+		994E5D5116B8411990C402D7 /* ObApple.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ObApple.png; path = ../assets/images/ObApple.png; sourceTree = "<group>"; };
+		9AF5A2D44F7D4BBABA1DE59D /* AndreTaissin5OUMf1Mr5pUUnsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AndreTaissin5OUMf1Mr5pUUnsplash.jpg; path = ../assets/images/AndreTaissin5OUMf1Mr5pUUnsplash.jpg; sourceTree = "<group>"; };
+		9FD967FAD5444C6A825D16FC /* ObGoogle.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ObGoogle.png; path = ../assets/images/ObGoogle.png; sourceTree = "<group>"; };
+		A564CB36ADE1494E8F1AA808 /* GoLiveSG.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GoLiveSG.png; path = ../assets/images/GoLiveSG.png; sourceTree = "<group>"; };
+		A6D844CBF2DD424DB43E5C69 /* Successpopup.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Successpopup.png; path = ../assets/images/Successpopup.png; sourceTree = "<group>"; };
+		A9D08841842E483A8DA3ED95 /* Welcome.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Welcome.png; path = ../assets/images/Welcome.png; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = NewApp/SplashScreen.storyboard; sourceTree = "<group>"; };
+		AD674E7F83D04E84BF62B849 /* GoLive.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GoLive.png; path = ../assets/images/GoLive.png; sourceTree = "<group>"; };
+		AEBF0B9D926F43B893B9F6FA /* 062812.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = 062812.png; path = ../assets/images/062812.png; sourceTree = "<group>"; };
+		B0EE259CB35C44E3A0547E00 /* Yt.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Yt.png; path = ../assets/images/Yt.png; sourceTree = "<group>"; };
+		B394C487A7A84CB8B196005F /* JonathanBorbaKgCSRo4SiT8Unsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = JonathanBorbaKgCSRo4SiT8Unsplash.jpg; path = ../assets/images/JonathanBorbaKgCSRo4SiT8Unsplash.jpg; sourceTree = "<group>"; };
+		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		BD790A2B34304016A83061CF /* ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg; path = ../assets/images/ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg; sourceTree = "<group>"; };
+		C854074E35174EDE85917CB6 /* Chiline2.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Chiline2.jpg; path = ../assets/images/Chiline2.jpg; sourceTree = "<group>"; };
+		C88E7C07C18442EE80661EBE /* Fb.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fb.png; path = ../assets/images/Fb.png; sourceTree = "<group>"; };
+		CAE14418EFD049CDB522DFB1 /* ScreenShot20211122At34913PM.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ScreenShot20211122At34913PM.png; path = ../assets/images/ScreenShot20211122At34913PM.png; sourceTree = "<group>"; };
+		D1332FDE57234B2286A1818E /* Telgrm.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Telgrm.png; path = ../assets/images/Telgrm.png; sourceTree = "<group>"; };
+		DB550E562072483198CDC386 /* Avatar.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Avatar.png; path = ../assets/images/Avatar.png; sourceTree = "<group>"; };
+		DDD62737F7F840239E667AC7 /* DALL·E20230127005431.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DALL·E20230127005431.png"; path = "../assets/images/DALL·E20230127005431.png"; sourceTree = "<group>"; };
+		EC436C12D26F4988B41DF818 /* ChannelDP.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ChannelDP.png; path = ../assets/images/ChannelDP.png; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-NewApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96905EF65AED1B983A6B3ABC /* libPods-NewApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* NewApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792B24A3F905000567C9 /* Supporting */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
+				7747958E6BDE401DB4EF5A7E /* noop-file.swift */,
+			);
+			name = NewApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-NewApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E7034E33A074EF990802FD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28E6D8836F5C4BDD90583900 /* icon.png */,
+				59D936DF80714EEDAFE5E264 /* splash.png */,
+				AEBF0B9D926F43B893B9F6FA /* 062812.png */,
+				9AF5A2D44F7D4BBABA1DE59D /* AndreTaissin5OUMf1Mr5pUUnsplash.jpg */,
+				DB550E562072483198CDC386 /* Avatar.png */,
+				545CC5ED46A74CA182ED79B6 /* Avatar2.png */,
+				988B311F69E149F0876B273E /* Banner.png */,
+				5B7140DE67694CEE85E9B60F /* BigLogo.png */,
+				2EB3E4244B0842E0A53848B6 /* CNP.png */,
+				5326BAA729664114B6CAD01D /* ChannelBanner.png */,
+				EC436C12D26F4988B41DF818 /* ChannelDP.png */,
+				61CB91DDF3FA43B69B641F07 /* CharlieGreen3JmfENcL24MUnsplash.jpg */,
+				C854074E35174EDE85917CB6 /* Chiline2.jpg */,
+				BD790A2B34304016A83061CF /* ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg */,
+				DDD62737F7F840239E667AC7 /* DALL·E20230127005431.png */,
+				0597AFAE47C04BEAB13BD8DA /* Discord.png */,
+				3806A59EE9674860B226F6E6 /* FPimage.png */,
+				C88E7C07C18442EE80661EBE /* Fb.png */,
+				5618072AA53F4B52A6EF81EE /* Games.png */,
+				AD674E7F83D04E84BF62B849 /* GoLive.png */,
+				A564CB36ADE1494E8F1AA808 /* GoLiveSG.png */,
+				10DE9C8A76D741E584BC1168 /* GoliveSI.png */,
+				056B6A16430E402BB6F5E663 /* IconSMS.png */,
+				2EBC111C544C44158AF55BB8 /* Ig.png */,
+				63BAC2B551D94332B3155FD9 /* JoelMottLaK153ghdigUnsplash.jpg */,
+				B394C487A7A84CB8B196005F /* JonathanBorbaKgCSRo4SiT8Unsplash.jpg */,
+				832271547BD14BA4987667A8 /* LastStream.png */,
+				2A210D1ADA2D408389B84C3A /* LolaRoseZcHseJqAeEcUnsplash.jpg */,
+				291DD57650484D3DB61CE16B /* MalikSkydsgaardIgkwHPbVk8Unsplash.jpg */,
+				994E5D5116B8411990C402D7 /* ObApple.png */,
+				0202CEBFF0964EC1B76A5851 /* ObFB.png */,
+				9FD967FAD5444C6A825D16FC /* ObGoogle.png */,
+				6EF7A22319BE4F09A295B188 /* ScreenShot20211122At33505PM.png */,
+				CAE14418EFD049CDB522DFB1 /* ScreenShot20211122At34913PM.png */,
+				A6D844CBF2DD424DB43E5C69 /* Successpopup.png */,
+				D1332FDE57234B2286A1818E /* Telgrm.png */,
+				42C66B233727415CAE900EDC /* Twtr.png */,
+				70D7945B07CF4C4391C88109 /* User.png */,
+				31738CC71A8E4420992F4DF7 /* ViaEmail.png */,
+				8E711BF4EA48444A97FFA1D8 /* Video.png */,
+				24AE8EAF5BBC4181974A3664 /* ViniciusWiesehoferUOavPZ38lEUnsplash.jpg */,
+				A9D08841842E483A8DA3ED95 /* Welcome.png */,
+				B0EE259CB35C44E3A0547E00 /* Yt.png */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* NewApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				D65327D7A22EEC0BE12398D9 /* Pods */,
+				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				2E7034E33A074EF990802FD9 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* NewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DBD88DE9BF7D494EA9DA96 /* NewApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
+			);
+			name = NewApp;
+			sourceTree = "<group>";
+		};
+		BB2F792B24A3F905000567C9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792C24A3F905000567C9 /* Expo.plist */,
+			);
+			name = Supporting;
+			path = NewApp/Supporting;
+			sourceTree = "<group>";
+		};
+		D65327D7A22EEC0BE12398D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E3173556A471DD304B334 /* Pods-NewApp.debug.xcconfig */,
+				7A4D352CD337FB3A3BF06240 /* Pods-NewApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				92DBD88DE9BF7D494EA9DA96 /* NewApp */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* NewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NewApp" */;
+			buildPhases = (
+				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
+				B38693F9A1B9F666693873BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewApp;
+			productName = NewApp;
+			productReference = 13B07F961A680F5B00A75B9A /* NewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* NewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				DDB78163409A41DC8991575D /* icon.png in Resources */,
+				65BC8206CD614FE096BE7840 /* splash.png in Resources */,
+				4CC3626750D8483388D58C16 /* 062812.png in Resources */,
+				D7859130648549F08B2389CA /* AndreTaissin5OUMf1Mr5pUUnsplash.jpg in Resources */,
+				7A82815EFFA44120A0D7A4CA /* Avatar.png in Resources */,
+				1C28EF270AB941C4B0531133 /* Avatar2.png in Resources */,
+				0FD182944E4C4EC6A6A4A02D /* Banner.png in Resources */,
+				117DFED78DAD4A3E85D10651 /* BigLogo.png in Resources */,
+				6D06C2FD3FC94946A78DA0DD /* CNP.png in Resources */,
+				429FEC90F3904F7F9EE43D7B /* ChannelBanner.png in Resources */,
+				329C2135BAFD4534B71919E9 /* ChannelDP.png in Resources */,
+				5B9C8297F3A74C75A4DCB2F9 /* CharlieGreen3JmfENcL24MUnsplash.jpg in Resources */,
+				2EE6ADCF4D034FD2B488671B /* Chiline2.jpg in Resources */,
+				81DF634EFA14492A8ACD4EF7 /* ChristinaWocintechchatComLQ1t8Ms5PYUnsplash.jpg in Resources */,
+				866A7363284C4166A99FEF1F /* DALL·E20230127005431.png in Resources */,
+				3A1CFE5FCCE640C1B3FEEECC /* Discord.png in Resources */,
+				B7EE73FCB4654423B8A83810 /* FPimage.png in Resources */,
+				CB923ACAA5AC4303ACD71CD0 /* Fb.png in Resources */,
+				E77191FA8F7F4F96A0938CB7 /* Games.png in Resources */,
+				3E311773D9BA4BD7B4EBE2D6 /* GoLive.png in Resources */,
+				59A0B371A1704F9787083293 /* GoLiveSG.png in Resources */,
+				568DAE33AD3D4BFEA6FDE2FB /* GoliveSI.png in Resources */,
+				403837335D974F36AB958AA5 /* IconSMS.png in Resources */,
+				BBA6F52FEE6749D5AD071CAA /* Ig.png in Resources */,
+				BF3ABE11CCF448EB817ACFEB /* JoelMottLaK153ghdigUnsplash.jpg in Resources */,
+				2A22875F21514311BACD1C7E /* JonathanBorbaKgCSRo4SiT8Unsplash.jpg in Resources */,
+				5A24C52EBC1D49CF975C6861 /* LastStream.png in Resources */,
+				B079A12D044946C992F059BB /* LolaRoseZcHseJqAeEcUnsplash.jpg in Resources */,
+				4AD113FAF3FF47CE888067AA /* MalikSkydsgaardIgkwHPbVk8Unsplash.jpg in Resources */,
+				05E992A192E4479897EC5E53 /* ObApple.png in Resources */,
+				28C85B7BAFF641038883EAA5 /* ObFB.png in Resources */,
+				6E0F9CFEF8DB41CCB6664E05 /* ObGoogle.png in Resources */,
+				56EE8D57BC4E429FAA28D5B8 /* ScreenShot20211122At33505PM.png in Resources */,
+				16EFB69FEB6E4C81BA74B735 /* ScreenShot20211122At34913PM.png in Resources */,
+				3628D5F838374270BD9BD6AA /* Successpopup.png in Resources */,
+				B1F3B6BF267549838548CA3B /* Telgrm.png in Resources */,
+				A754E7090A684B2798F4EEE4 /* Twtr.png in Resources */,
+				EBA3B96E3F994789A5100B9D /* User.png in Resources */,
+				64A096487EB64467A53E1F53 /* ViaEmail.png in Resources */,
+				D840DF40FDC04BB8AC7631C0 /* Video.png in Resources */,
+				A1AD855612574F1AA57A4D71 /* ViniciusWiesehoferUOavPZ38lEUnsplash.jpg in Resources */,
+				BB652134E5254282B1A4DA68 /* Welcome.png in Resources */,
+				91BDB36D55DA433D816C1146 /* Yt.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
+		};
+		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewApp/Pods-NewApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewApp/Pods-NewApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38693F9A1B9F666693873BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewApp/Pods-NewApp-frameworks.sh",
+				"${PODS_ROOT}/../../node_modules/@daily-co/react-native-webrtc/ios/WebRTC.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/AINS/AgoraAIDenoiseExtension.framework/AgoraAIDenoiseExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/AV1Dec/AgoraDav1dExtension.framework/AgoraDav1dExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/ContentInspect/AgoraCIExtension.framework/AgoraCIExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/FullAudioFormat/AgoraFullAudioFormatExtension.framework/AgoraFullAudioFormatExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/ROIEnc/AgoraFDExtension.framework/AgoraFDExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/ReplayKit/AgoraReplayKitExtension.framework/AgoraReplayKitExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/RtcBasic/AgoraCore.framework/AgoraCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/RtcBasic/AgoraRtcKit.framework/AgoraRtcKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/RtcBasic/AgoraSoundTouch.framework/AgoraSoundTouch",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/RtcBasic/Agorafdkaac.framework/Agorafdkaac",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/RtcBasic/Agoraffmpeg.framework/Agoraffmpeg",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/SpatialAudio/AgoraSpatialAudioExtension.framework/AgoraSpatialAudioExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/SuperResolution/AgoraSuperResolutionExtension.framework/AgoraSuperResolutionExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/VideoPreprocess/AgoraVideoProcessExtension.framework/AgoraVideoProcessExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/VirtualBackground/AgoraVideoSegmentationExtension.framework/AgoraVideoSegmentationExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtm_iOS/AgoraRtmKit.framework/AgoraRtmKit",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAIDenoiseExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraDav1dExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraCIExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraFullAudioFormatExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraFDExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraReplayKitExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraRtcKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraSoundTouch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agorafdkaac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agoraffmpeg.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraSpatialAudioExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraSuperResolutionExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraVideoProcessExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraVideoSegmentationExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraRtmKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewApp/Pods-NewApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\nexport RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > `$NODE_BINARY --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/.packager.env'\"`\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open `$NODE_BINARY --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/launchPackager.command'\"` || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
+				5C60D288A9D84EFA83E297D4 /* noop-file.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-NewApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NewApp/NewApp.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = NewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodestarfutures.lodestar;
+				PRODUCT_NAME = NewApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-NewApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NewApp/NewApp.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = NewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodestarfutures.lodestar;
+				PRODUCT_NAME = NewApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

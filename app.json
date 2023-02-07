@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "New App",
+    "slug": "lodestar",
+    "scheme": "lodestar",
+    "description": "My app powered by Draftbit",
+    "privacy": "unlisted",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/app/icon.png",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#5A45FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.lodestarfutures.lodestar",
+      "supportsTablet": false,
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan barcodes on event tickets.",
+        "NSCalendarsUsageDescription": "This app uses the calendar to set events.",
+        "NSRemindersUsageDescription": "This app uses the reminders to create a list of local services",
+        "NSMicrophoneUsageDescription": "This app uses the microphone to enable audio chat with others",
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to review rich media previously added.",
+        "NSPhotoLibraryAddUsageDescription": "This app uses the photo library to add rich media shared from others.",
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to create a list of local services."
+      },
+      "usesIcloudStorage": false
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.draftbit.untitledapp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "RECORD_AUDIO",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+      "themeColor": "#000000"
+    },
+    "notification": {
+      "androidMode": "default"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a965997-88a2-4682-a6ee-24baaed28e1c"
+      }
+    }
+  }
+}
